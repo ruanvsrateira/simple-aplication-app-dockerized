@@ -1,0 +1,9 @@
+version: "3.0"
+services: 
+  web:
+    container_name: app-container
+    ports: 
+      - 3000:3000 
+    build:
+      context: .
+      dockerfile: Dockerfile
